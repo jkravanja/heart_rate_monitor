@@ -1,0 +1,112 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: Thu 04 Dec 2014 04:16:39 AM EET
+#Cmp ( order = Reference )
+| B1         Balun Johanson 2450BM14A0002
+| BT1        BATTERY     
+| C1         0.1 uF      
+| C2         0.1 uF      
+| C3         2.2nF       
+| C4         4.7uF       
+| C5         20pF        
+| C6         20pF        
+| C7         4.7uF       
+| C8         0.1uF       
+| C9         1nF         
+| C10        47nF        
+| C11        0.1uF       
+| C12        1uF         
+| C13        20pF        
+| C14        20pF        
+| C15        0.1uF       
+| C16        0.1 uF      
+| C17        33p         
+| C18        33p         
+| C19        0.1uF       
+| C20        1uF         
+| C21        2.2uF       
+| C22        2.2uF       
+| C23        4.7 uF      
+| C24        0.01 uF     
+| D1         LED         
+| D3         PHOTODIODE  
+| D4         IR          
+| D5         RED         
+| IC1        NRF51822    
+| L4         10uH        
+| L5         15nH        
+| P1         CONN_5X2    
+| P3         CONN_3X2    
+| R1         12K         
+| R2         100R        
+| R3         4.7k        
+| R4         10k         
+| R5         10          
+| R6         1k          
+| R7         4.7k        
+| R8         4.7k        
+| R9         4.7k        
+| SW1        SWITCH-4    
+| U1         ANTENNA Johanson 2450AT18A100E
+| U2         AFE4400     
+| U3         MMA8452Q    
+| U4         CAT24M01    
+| X1         16.000MHZ   
+| X2         32.768 kHz  
+| X3         8 MHz       
+#End Cmp
+
+#Cmp ( order = Value )
+| Balun Johanson 2450BM14A0002 B1        
+| BATTERY      BT1       
+| 20pF         C5        
+| 20pF         C6        
+| 20pF         C13       
+| 20pF         C14       
+| 33p          C17       
+| 33p          C18       
+| 1nF          C9        
+| 2.2nF        C3        
+| 47nF         C10       
+| 0.1uF        C8        
+| 0.1uF        C11       
+| 0.1uF        C15       
+| 0.1uF        C19       
+| 1uF          C12       
+| 1uF          C20       
+| 2.2uF        C21       
+| 2.2uF        C22       
+| 4.7uF        C4        
+| 4.7uF        C7        
+| 0.01 uF      C24       
+| 0.1 uF       C1        
+| 0.1 uF       C2        
+| 0.1 uF       C16       
+| 4.7 uF       C23       
+| LED          D1        
+| PHOTODIODE   D3        
+| IR           D4        
+| RED          D5        
+| NRF51822     IC1       
+| 15nH         L5        
+| 10uH         L4        
+| CONN_5X2     P1        
+| CONN_3X2     P3        
+| 10           R5        
+| 100R         R2        
+| 1k           R6        
+| 4.7k         R3        
+| 4.7k         R7        
+| 4.7k         R8        
+| 4.7k         R9        
+| 10k          R4        
+| 12K          R1        
+| SWITCH-4     SW1       
+| ANTENNA Johanson 2450AT18A100E U1        
+| MMA8452Q     U3        
+| CAT24M01     U4        
+| AFE4400      U2        
+| 32.768 kHz   X2        
+| 16.000MHZ    X1        
+| 8 MHz        X3        
+#End Cmp
+
+#End List

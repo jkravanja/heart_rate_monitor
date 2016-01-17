@@ -1,0 +1,193 @@
+PCBNEW-LibModule-V1  Mon 15 Dec 2014 12:47:38 PM EET
+# encoding utf-8
+Units mm
+$INDEX
+16Mhz_crystal
+32768kHz_Crystal
+8MHzCrystal
+BatteryHolderCR2032
+GND_VIA
+Switch-B3S
+$EndINDEX
+$MODULE 16Mhz_crystal
+Po 0 0 0 15 5481D587 00000000 ~~
+Li 16Mhz_crystal
+Sc 0
+AR 
+Op 0 0 0
+T0 0 7.4 1.5 1.5 0 0.15 N V 21 N "16Mhz_crystal"
+T1 0 -4.75 1.5 1.5 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.85
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0.85
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 -0.85
+$EndPAD
+$PAD
+Sh "4" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.85
+$EndPAD
+$EndMODULE 16Mhz_crystal
+$MODULE 32768kHz_Crystal
+Po 0 0 0 15 5481CF66 00000000 ~~
+Li 32768kHz_Crystal
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7.55 1.5 1.5 0 0.15 N V 21 N "32768kHz_Crystal"
+T1 0 4.25 1.5 1.5 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.1 0
+$EndPAD
+$PAD
+Sh "2" R 1.3 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.1 0
+$EndPAD
+$EndMODULE 32768kHz_Crystal
+$MODULE 8MHzCrystal
+Po 0 0 0 15 5481D086 00000000 ~~
+Li 8MHzCrystal
+Sc 0
+AR 
+Op 0 0 0
+T0 0.05 -3.5 1.5 1.5 0 0.15 N V 21 N "8MHzCrystal"
+T1 0.1 3.2 1.5 1.5 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.7 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.85 0
+$EndPAD
+$PAD
+Sh "2" R 1.7 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.85 0
+$EndPAD
+$EndMODULE 8MHzCrystal
+$MODULE BatteryHolderCR2032
+Po 0 0 0 15 548E276C 00000000 ~~
+Li BatteryHolderCR2032
+Sc 0
+AR 
+Op 0 0 0
+T0 0.05 6.2 1.5 1.5 0 0.15 N V 21 N "BatteryHolderCR2032"
+T1 0 -5.4 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS 10.55 -3.25 10.55 -7 0.15 21
+DS -10.55 -3.25 -10.55 -7 0.15 21
+DS 6 -10.9 10.55 -7 0.15 21
+DS -6 -10.9 -10.55 -7 0.15 21
+DS 0 -7 6 -10.9 0.15 21
+DS -6 -10.9 0 -7 0.15 21
+DS 10.55 9.1 10.55 3.45 0.15 21
+DS 10.5 9.1 -10.55 9.1 0.15 21
+DS -10.55 9.1 -10.55 3.45 0.15 21
+$PAD
+Sh "2" C 8 8 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 5.5 5.5 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -12.8 0
+$EndPAD
+$PAD
+Sh "1" R 5.5 5.5 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 12.8 0
+$EndPAD
+$EndMODULE BatteryHolderCR2032
+$MODULE GND_VIA
+Po 0 0 0 15 548EBC46 00000000 ~~
+Li GND_VIA
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.6 0 0.2 0.2 900 0.05 N I 21 N ""
+T1 0.5 -0.05 0.2 0.2 900 0.05 N I 21 N ""
+$PAD
+Sh "1" C 0.62 0.62 0 0 0
+Dr 0.32 0 0
+At STD N 00C0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 0.152
+$EndPAD
+$EndMODULE GND_VIA
+$MODULE Switch-B3S
+Po 0 0 0 15 5481C6DA 00000000 ~~
+Li Switch-B3S
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.15 1.5 1.5 0 0.15 N V 21 N "Switch-B3S"
+T1 0 5.6 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -2.8 -3.3 2.8 -3.3 0.15 21
+DS 2.8 3.3 -2.8 3.3 0.15 21
+DS 3 -1.2 3 1.2 0.15 21
+DS -3 -1.2 -3 1.2 0.15 21
+DC 0 0 0.05 1.65 0.15 21
+$PAD
+Sh "1" R 1.55 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.975 2.25
+$EndPAD
+$PAD
+Sh "2" R 1.55 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.975 2.25
+$EndPAD
+$PAD
+Sh "3" R 1.55 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.975 -2.25
+$EndPAD
+$PAD
+Sh "4" R 1.55 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.975 -2.25
+$EndPAD
+$EndMODULE Switch-B3S
+$EndLIBRARY
